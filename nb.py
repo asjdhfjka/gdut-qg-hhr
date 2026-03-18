@@ -1179,8 +1179,31 @@
 #2.通过装饰器实现
 #3.通过重写__new__()实现(重点)
 #4.通过导入模块实现
-
-
+# import json
+# from operator import index
+#
+# # #从python对象格式化一个json string
+# # person = {"name":"wyx","age":"18","tel":["1324354356","sfdsgfshg"],"isonly":True}
+# # print(person)
+# # jsonstr = json.dumps(person)#将person字典转换成json字符串
+# # print(jsonstr)
+# # jsonstr = json.dumps(person,indent=4)#有四格的缩进
+# # print(jsonstr)
+# # jsonstr = json.dumps(person,indent=4,sort_keys=True)#按照key的顺序排列
+# # print(jsonstr)
+# # json.dump(person,open("person.data","w"),indent=4,sort_keys=True)
+# #json string转换成python对象 load loads
+# s='{"name":"wyx","age":"18","tel":["1324354356","sfdsgfshg"],"isonly":true}'
+# pythonobj=json.loads(s)
+# print(pythonobj)
+# print(type(pythonobj))
+# s='["A",4363,"wyx",{"name":"hhr","alone":true}]'
+# pythonobj=json.loads(s)
+# print(pythonobj)
+# print(type(pythonobj))
+# pythonobj=json.load(open('qg','r'))
+# print(pythonobj)
+# print(type(pythonobj))
 
 
 
